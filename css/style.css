@@ -11,7 +11,7 @@ html{
 }
 
 ::selection{
-  background-color: #0c0c0c60;
+  background-color: #ff2121;
 }
 
 ::-webkit-scrollbar{
@@ -20,7 +20,7 @@ html{
 }
 
 ::-webkit-scrollbar-thumb{
-  background-color: #838383;
+  background-color: #585858;
 }
 
 .navbar{
@@ -76,7 +76,7 @@ html{
 }
 
 .navbar-menu a:hover{
-  color: #48dbfb !important;
+  color: #ff2121 !important;
 }
 
 .sticky{
@@ -119,19 +119,19 @@ html{
 }
 
 #home .content h1::after{
-  content: "Redven Biker";
+  content: "Safier The Developer";
   animation: textanim 10s linear infinite;
 }
 
 @keyframes textanim{
   25%{
-    content: "A Developer";
+    content: "A Server Developer";
   }
   50%{
-    content: "A Designer";
+    content: "A Script Developer";
   }
   75%{
-    content: "A Streamer";
+    content: "A Web Designer";
   }
 }
 
@@ -143,7 +143,7 @@ html{
 }
 
 .sm a:hover{
-  color: #48dbfb;
+  color: #ff2121;
 }
 
 #home .buttons{
@@ -157,7 +157,7 @@ html{
   font-size: 15px;
   font-weight: 500;
   width: 180px;
-  border: 1px solid #48dbfb;
+  border: 1px solid #ff2121;
   padding: 14px 0;
   border-radius: 6px;
   transition: .2s linear;
@@ -199,7 +199,7 @@ section{
   position: absolute;
   width: 16px;
   height: 10px;
-  background-color: #48dbfb;
+  background-color: #fb4646;
   border: 4px solid #f1f1f1;
   left: calc(50% - 12px);
   bottom: -7px;
@@ -273,32 +273,32 @@ section{
   content: "";
   position: absolute;
   height: 6px;
-  background-color: #48dbfb;
+  background-color: #ff2121;
   bottom: 0;
 }
 
 .html:after{
-  width: 90%;
+  width: 80%;
 }
 
 .css:after{
-  width: 80%;
-}
-
-.js:after{
   width: 70%;
 }
 
+.js:after{
+  width: 55%;
+}
+
 .php:after{
-  width: 60%;
+  width: 37%;
 }
 
 .mysql:after{
-  width: 90%;
+  width: 57%;
 }
 
 .cs:after{
-  width: 80%;
+  width: 15%;
 }
 
 section.dark{
@@ -326,7 +326,7 @@ section.dark .section-title::after{
 .service{
   width: calc(33% - 20px);
   text-align: center;
-  border: 1px solid #48dbfb;
+  border: 1px solid #ff2121;
   border-radius: 6px;
   margin: 20px 0;
   padding: 40px 20px;
@@ -336,7 +336,7 @@ section.dark .section-title::after{
 }
 
 .service .icon{
-  color: #48dbfb;
+  color: #ff2121;
   font-size: 40px;
   margin-bottom: 20px;
   transition: .3s linear;
@@ -348,7 +348,7 @@ section.dark .section-title::after{
 }
 
 .service:hover{
-  background-color: #48dafbab;
+  background-color: #ff2121;
 }
 
 .service:hover .icon{
@@ -386,7 +386,7 @@ section.dark .section-title::after{
   position: absolute;
   width: 16px;
   height: 16px;
-  background-color: #48dbfb;
+  background-color: #ff2121;
   left: -28px;
   top: 30px;
   border-radius: 50%;
@@ -476,7 +476,7 @@ section.dark .section-title::after{
 }
 
 .contact-info .item:hover{
-  background-color: #48dbfb;
+  background-color: #ff2121;
 }
 
 .contact-form{
@@ -509,9 +509,9 @@ section.dark .section-title::after{
 .contact-form .btn{
   width: 180px;
   background-color: transparent;
-  color: #48dbfb;
+  color: #ff2121;
   font-size: 16px;
-  border: 2px solid #48dbfb;
+  border: 2px solid #ff2121;
   padding: 0;
   margin-left: auto;
   cursor: pointer;
@@ -519,7 +519,7 @@ section.dark .section-title::after{
 }
 
 .contact-form .btn:hover{
-  background-color: #48dbfb;
+  background-color: #ff2121;
   color: #fff;
 }
 
@@ -537,7 +537,7 @@ footer{
 
 .copyright a{
   font-size: 16px;
-  color: #48dbfb;
+  color: #ff2121;
   font-weight: 500;
 }
 
@@ -548,7 +548,7 @@ footer{
   right: 40px;
   width: 40px;
   height: 40px;
-  background-color: #48dbfb;
+  background-color: #ff2121;
   border: none;
   border-radius: 6px;
   cursor: pointer;
